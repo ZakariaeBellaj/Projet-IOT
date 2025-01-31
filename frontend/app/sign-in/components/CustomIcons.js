@@ -1,11 +1,9 @@
 import * as React from 'react';
-import MyIcon from "@/assets/icons/icon.png";
-import SvgIcon from '@mui/material/SvgIcon';
-import { Box } from "@mui/material";
 
-export function SitemarkIcon() {
-  return <img src={MyIcon} alt="Sitemark Icon" style={{ height: 21, width: 100 }} />;
-}
+import SvgIcon from '@mui/material/SvgIcon';
+
+
+
 
 export function FacebookIcon() {
   return (
