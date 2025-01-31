@@ -1,10 +1,12 @@
-import { Button } from '@/components/ui/button'
-import React from 'react'
+import React from 'react';
+import SignIn from '../sign-in/SignIn';
 
-export default function Home() {
+const LandingPage = () => {
   return (
     <>
-    <Button>Click Me</Button>
+      <SignIn />
     </>
-  )
-}
+  );
+};
+
+export default LandingPage;
